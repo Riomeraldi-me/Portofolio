@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#0a192f;
+}
+
+.container-navbar{
+    margin:5px;
+    display:flex;
+    margin-left:12px;
+    justify-items:center;
+}
+
+.img-navbar{
+    margin:100px;
+}
+
+.teks-logo-navbar{
+    color:  #dae3ff;
+    margin-left:30px;
+    margin-top:7px;
+    font-family:"Roboto mono",monospace;
+    font-size:27px;
+}
+
+.ul-navbar{
+    list-style-type:none;
+    display:flex;
+    margin-left:590px
+
+}
+
+.ul-navbar h4 .li-navbar a:hover {
+    color: #42e9ff;
+}
+
+.li-navbar{
+    margin-top:14px;
+    margin-left:45px;
+    font-size:17px;
+    font-family:"Roboto mono",monospace;
+}
+
+.a-navbar{
+    color:#44516b;
+    text-decoration:none;
+}
+
+.profil-img{
+    border-radius:50%;
+    position:absolute;
+    top:200px;
+    left:530px;
+
+}
+
+.h2-nama{
+    color:#a7baff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:30px;
+    position:absolute;
+    top:440px;
+    left:558px;
+}
+
+.container-teks-about{
+    background-color:#202735;
+    border-radius:40px;
+    width:700px;
+    height:100px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    top:500px;
+    left:300px;
+}
+
+.teks-about{
+    color:#30d2e7;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.container-media-social{
+    height:40px;
+    width:150px;
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family:"Roboto mono",monospace;
+    font-size:13px;
+    position:absolute;
+    top:19cm;
+    left:570px;
+    color:#30d2e7;
+    background-color:#272f3d;
+}
+
+.line4{
+    background-color:#44516b;
+    width:570px;
+    height:3px;
+    position:absolute;
+    top:737px;
+
+}
+
+.line5{
+    background-color:#44516b;
+    width:582px;
+    height:3px;
+    position:absolute;
+    top:737px;
+    left:720px;
+}
+
+.container-icons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#dae3ff;
+    position:absolute;
+    top:22cm;
+    left:585px;
+    font-size:30px;
+}
+
+.fa-github{
+    margin:20px;
+    color:white;
+}
+.fa-square-x-twitter{
+    color:white;
+}
